@@ -45,7 +45,8 @@ def transcribe_audio(audio, model_size="base"):
     segments, info = whisper_model.transcribe(
         audio,
         language="ko",
-        beam_size=5
+        beam_size=5,
+        initial_prompt="계산기, 크롬, 메모장, 파일 탐색기, 바탕화면, 다운로드, 문서, 실행, 검색"
     )
 
     text = ""
