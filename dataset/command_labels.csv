@@ -1,0 +1,31 @@
+filename,type,target,query,name,folder
+001.wav,open_app,calculator,,,
+002.wav,open_app,chrome,,,
+003.wav,open_app,notepad,,,
+004.wav,open_app,calculator,,,
+005.wav,open_app,chrome,,,
+006.wav,open_app,notepad,,,
+007.wav,open_app,calculator,,,
+008.wav,open_app,chrome,,,
+009.wav,open_app,notepad,,,
+010.wav,web_search,,오늘 날씨,,
+011.wav,web_search,,인공지능 뉴스,,
+012.wav,web_search,,숭실대학교,,
+013.wav,web_search,,파이썬 사용법,,
+014.wav,web_search,,내일 서울 날씨,,
+015.wav,web_search,,맛집,,
+016.wav,open_file,,,테스트,desktop
+017.wav,open_file,,,보고서,downloads
+018.wav,open_file,,,과제,documents
+019.wav,open_file,,,테스트,
+020.wav,open_file,,,사진,desktop
+021.wav,unknown,,,,
+022.wav,unknown,,,,
+023.wav,unknown,,,,
+024.wav,unknown,,,,
+025.wav,unknown,,,,
+026.wav,unknown,,,,
+027.wav,unknown,,,,
+028.wav,unknown,,,,
+029.wav,web_search,,인공지능이 미래 사회에 미치는 영향에 대해,,
+030.wav,open_file,,,테스트,desktop
