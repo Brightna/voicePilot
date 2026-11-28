@@ -22,11 +22,12 @@ def load_model(model_size="base"):
 # 음성 녹음
 def record_audio():
     samplerate = 16000
+    duration = 5
 
-    print("3초 동안 말씀해 주세요!")
+    print(f"{duration}초 동안 말씀해 주세요!")
 
     audio = sd.rec(
-        int(3 * samplerate),
+        int(duration * samplerate),
         samplerate=samplerate,
         channels=1,
         dtype="float32"
@@ -36,7 +37,6 @@ def record_audio():
     print("녹음 완료!")
 
     return audio.flatten()
-
 
 # 녹음된 음성 인식
 def transcribe_audio(audio, model_size="base"):
