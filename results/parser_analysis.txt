@@ -1,0 +1,357 @@
+
+==================================================
+base V1 none
+==================================================
+
+[실패] 007.wav
+인식: 나, 계산기, 쓰고 싶어
+입력: 나, 계산기, 쓰고 싶어
+정답: {'filename': '007.wav', 'type': 'open_app', 'target': 'calculator', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'unknown', 'raw_text': '나, 계산기, 쓰고 싶어'}
+
+[실패] 008.wav
+인식: 인터넷 좀 하고 싶어
+입력: 인터넷 좀 하고 싶어
+정답: {'filename': '008.wav', 'type': 'open_app', 'target': 'chrome', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'unknown', 'raw_text': '인터넷 좀 하고 싶어'}
+
+[실패] 011.wav
+인식: 인공지는 뉴스 검색해줘
+입력: 인공지는 뉴스 검색해줘
+정답: {'filename': '011.wav', 'type': 'web_search', 'target': '', 'query': '인공지능 뉴스', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '인공지는 뉴스'}
+
+[실패] 012.wav
+인식: 송실대학교 검색해줘
+입력: 송실대학교 검색해줘
+정답: {'filename': '012.wav', 'type': 'web_search', 'target': '', 'query': '숭실대학교', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '송실대학교'}
+
+[실패] 013.wav
+인식: 파이선, 차용법, 찾아줘
+입력: 파이선, 차용법, 찾아줘
+정답: {'filename': '013.wav', 'type': 'web_search', 'target': '', 'query': '파이썬 사용법', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '파이선, 차용법,'}
+
+[실패] 014.wav
+인식: 내일 서울 날씨 알아봐줘
+입력: 내일 서울 날씨 알아봐줘
+정답: {'filename': '014.wav', 'type': 'web_search', 'target': '', 'query': '내일 서울 날씨', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '내일 서울 날씨 줘'}
+
+[실패] 016.wav
+인식: 바탕화면에 있는 테스트 파일 10호죠
+입력: 바탕화면에 있는 테스트 파일 10호죠
+정답: {'filename': '016.wav', 'type': 'open_file', 'target': '', 'query': '', 'name': '테스트', 'folder': 'desktop'}
+결과: {'type': 'unknown', 'raw_text': '바탕화면에 있는 테스트 파일 10호죠'}
+
+[실패] 020.wav
+인식: 바탕화면에 있는 사진, 열 오조
+입력: 바탕화면에 있는 사진, 열 오조
+정답: {'filename': '020.wav', 'type': 'open_file', 'target': '', 'query': '', 'name': '사진', 'folder': 'desktop'}
+결과: {'type': 'unknown', 'raw_text': '바탕화면에 있는 사진, 열 오조'}
+
+[실패] 023.wav
+인식: 계산기, 켜지마
+입력: 계산기, 켜지마
+정답: {'filename': '023.wav', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'open_app', 'target': 'calculator'}
+
+[실패] 028.wav
+인식: 열어줘
+입력: 열어줘
+정답: {'filename': '028.wav', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'open_file', 'name': '', 'folder': ''}
+
+[실패] 030.wav
+인식: 바탕화면에 있는 테스트 파일을 찾아서 열어줘
+입력: 바탕화면에 있는 테스트 파일을 찾아서 열어줘
+정답: {'filename': '030.wav', 'type': 'open_file', 'target': '', 'query': '', 'name': '테스트', 'folder': 'desktop'}
+결과: {'type': 'open_file', 'name': '테스트 파일을 찾아서', 'folder': 'desktop'}
+
+==================================================
+base V1 jamo_0.9
+==================================================
+
+[실패] 007.wav
+인식: 나, 계산기, 쓰고 싶어
+입력: 나, 계산기, 쓰고 싶어
+정답: {'filename': '007.wav', 'type': 'open_app', 'target': 'calculator', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'unknown', 'raw_text': '나, 계산기, 쓰고 싶어'}
+
+[실패] 008.wav
+인식: 인터넷 좀 하고 싶어
+입력: 인터넷 좀 하고 싶어
+정답: {'filename': '008.wav', 'type': 'open_app', 'target': 'chrome', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'unknown', 'raw_text': '인터넷 좀 하고 싶어'}
+
+[실패] 012.wav
+인식: 송실대학교 검색해줘
+입력: 송실대학교 검색해줘
+정답: {'filename': '012.wav', 'type': 'web_search', 'target': '', 'query': '숭실대학교', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '송실대학교'}
+
+[실패] 013.wav
+인식: 파이선, 차용법, 찾아줘
+입력: 파이선, 차용법, 찾아줘
+정답: {'filename': '013.wav', 'type': 'web_search', 'target': '', 'query': '파이썬 사용법', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '파이선, 차용법,'}
+
+[실패] 014.wav
+인식: 내일 서울 날씨 알아봐줘
+입력: 내일 서울 날씨 알아봐줘
+정답: {'filename': '014.wav', 'type': 'web_search', 'target': '', 'query': '내일 서울 날씨', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '내일 서울 날씨 줘'}
+
+[실패] 016.wav
+인식: 바탕화면에 있는 테스트 파일 10호죠
+입력: 바탕화면에 있는 테스트 파일 10호죠
+정답: {'filename': '016.wav', 'type': 'open_file', 'target': '', 'query': '', 'name': '테스트', 'folder': 'desktop'}
+결과: {'type': 'unknown', 'raw_text': '바탕화면에 있는 테스트 파일 10호죠'}
+
+[실패] 020.wav
+인식: 바탕화면에 있는 사진, 열 오조
+입력: 바탕화면에 있는 사진, 열 오조
+정답: {'filename': '020.wav', 'type': 'open_file', 'target': '', 'query': '', 'name': '사진', 'folder': 'desktop'}
+결과: {'type': 'unknown', 'raw_text': '바탕화면에 있는 사진, 열 오조'}
+
+[실패] 023.wav
+인식: 계산기, 켜지마
+입력: 계산기, 켜지마
+정답: {'filename': '023.wav', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'open_app', 'target': 'calculator'}
+
+[실패] 028.wav
+인식: 열어줘
+입력: 열어줘
+정답: {'filename': '028.wav', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'open_file', 'name': '', 'folder': ''}
+
+[실패] 030.wav
+인식: 바탕화면에 있는 테스트 파일을 찾아서 열어줘
+입력: 바탕화면에 있는 테스트 파일을 찾아서 열어줘
+정답: {'filename': '030.wav', 'type': 'open_file', 'target': '', 'query': '', 'name': '테스트', 'folder': 'desktop'}
+결과: {'type': 'open_file', 'name': '테스트 파일을 찾아서', 'folder': 'desktop'}
+
+==================================================
+base V2 none
+==================================================
+
+[실패] 011.wav
+인식: 인공지는 뉴스 검색해줘
+입력: 인공지는 뉴스 검색해줘
+정답: {'filename': '011.wav', 'type': 'web_search', 'target': '', 'query': '인공지능 뉴스', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '인공지는 뉴스'}
+
+[실패] 012.wav
+인식: 송실대학교 검색해줘
+입력: 송실대학교 검색해줘
+정답: {'filename': '012.wav', 'type': 'web_search', 'target': '', 'query': '숭실대학교', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '송실대학교'}
+
+[실패] 013.wav
+인식: 파이선, 차용법, 찾아줘
+입력: 파이선, 차용법, 찾아줘
+정답: {'filename': '013.wav', 'type': 'web_search', 'target': '', 'query': '파이썬 사용법', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '파이선, 차용법,'}
+
+[실패] 016.wav
+인식: 바탕화면에 있는 테스트 파일 10호죠
+입력: 바탕화면에 있는 테스트 파일 10호죠
+정답: {'filename': '016.wav', 'type': 'open_file', 'target': '', 'query': '', 'name': '테스트', 'folder': 'desktop'}
+결과: {'type': 'unknown', 'raw_text': '바탕화면에 있는 테스트 파일 10호죠'}
+
+[실패] 020.wav
+인식: 바탕화면에 있는 사진, 열 오조
+입력: 바탕화면에 있는 사진, 열 오조
+정답: {'filename': '020.wav', 'type': 'open_file', 'target': '', 'query': '', 'name': '사진', 'folder': 'desktop'}
+결과: {'type': 'unknown', 'raw_text': '바탕화면에 있는 사진, 열 오조'}
+
+==================================================
+base V2 jamo_0.9
+==================================================
+
+[실패] 012.wav
+인식: 송실대학교 검색해줘
+입력: 송실대학교 검색해줘
+정답: {'filename': '012.wav', 'type': 'web_search', 'target': '', 'query': '숭실대학교', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '송실대학교'}
+
+[실패] 013.wav
+인식: 파이선, 차용법, 찾아줘
+입력: 파이선, 차용법, 찾아줘
+정답: {'filename': '013.wav', 'type': 'web_search', 'target': '', 'query': '파이썬 사용법', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '파이선, 차용법,'}
+
+[실패] 016.wav
+인식: 바탕화면에 있는 테스트 파일 10호죠
+입력: 바탕화면에 있는 테스트 파일 10호죠
+정답: {'filename': '016.wav', 'type': 'open_file', 'target': '', 'query': '', 'name': '테스트', 'folder': 'desktop'}
+결과: {'type': 'unknown', 'raw_text': '바탕화면에 있는 테스트 파일 10호죠'}
+
+[실패] 020.wav
+인식: 바탕화면에 있는 사진, 열 오조
+입력: 바탕화면에 있는 사진, 열 오조
+정답: {'filename': '020.wav', 'type': 'open_file', 'target': '', 'query': '', 'name': '사진', 'folder': 'desktop'}
+결과: {'type': 'unknown', 'raw_text': '바탕화면에 있는 사진, 열 오조'}
+
+==================================================
+small V1 none
+==================================================
+
+[실패] 007.wav
+인식: 나, 계산기 쓰고 싶어
+입력: 나, 계산기 쓰고 싶어
+정답: {'filename': '007.wav', 'type': 'open_app', 'target': 'calculator', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'unknown', 'raw_text': '나, 계산기 쓰고 싶어'}
+
+[실패] 008.wav
+인식: 인터넷 좀 하고 싶어
+입력: 인터넷 좀 하고 싶어
+정답: {'filename': '008.wav', 'type': 'open_app', 'target': 'chrome', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'unknown', 'raw_text': '인터넷 좀 하고 싶어'}
+
+[실패] 011.wav
+인식: 인공지는 뉴스 검색해줘
+입력: 인공지는 뉴스 검색해줘
+정답: {'filename': '011.wav', 'type': 'web_search', 'target': '', 'query': '인공지능 뉴스', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '인공지는 뉴스'}
+
+[실패] 013.wav
+인식: 파이선 사용법 찾아줘
+입력: 파이선 사용법 찾아줘
+정답: {'filename': '013.wav', 'type': 'web_search', 'target': '', 'query': '파이썬 사용법', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '파이선 사용법'}
+
+[실패] 014.wav
+인식: 내일 서울 날씨 알아봐줘
+입력: 내일 서울 날씨 알아봐줘
+정답: {'filename': '014.wav', 'type': 'web_search', 'target': '', 'query': '내일 서울 날씨', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '내일 서울 날씨 줘'}
+
+[실패] 023.wav
+인식: 계산기, 켜지마
+입력: 계산기, 켜지마
+정답: {'filename': '023.wav', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'open_app', 'target': 'calculator'}
+
+[실패] 026.wav
+인식: 다운로드, 다운로드, 문서, 실행, 검색
+입력: 다운로드, 다운로드, 문서, 실행, 검색
+정답: {'filename': '026.wav', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '다운로드, 다운로드, 문서, 실행,'}
+
+[실패] 028.wav
+인식: 열어줘
+입력: 열어줘
+정답: {'filename': '028.wav', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'open_file', 'name': '', 'folder': ''}
+
+[실패] 030.wav
+인식: 바탕화면에 있는 테스트 파일을 찾아서 열어줘
+입력: 바탕화면에 있는 테스트 파일을 찾아서 열어줘
+정답: {'filename': '030.wav', 'type': 'open_file', 'target': '', 'query': '', 'name': '테스트', 'folder': 'desktop'}
+결과: {'type': 'open_file', 'name': '테스트 파일을 찾아서', 'folder': 'desktop'}
+
+==================================================
+small V1 jamo_0.9
+==================================================
+
+[실패] 007.wav
+인식: 나, 계산기 쓰고 싶어
+입력: 나, 계산기 쓰고 싶어
+정답: {'filename': '007.wav', 'type': 'open_app', 'target': 'calculator', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'unknown', 'raw_text': '나, 계산기 쓰고 싶어'}
+
+[실패] 008.wav
+인식: 인터넷 좀 하고 싶어
+입력: 인터넷 좀 하고 싶어
+정답: {'filename': '008.wav', 'type': 'open_app', 'target': 'chrome', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'unknown', 'raw_text': '인터넷 좀 하고 싶어'}
+
+[실패] 013.wav
+인식: 파이선 사용법 찾아줘
+입력: 파이선 사용법 찾아줘
+정답: {'filename': '013.wav', 'type': 'web_search', 'target': '', 'query': '파이썬 사용법', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '파이선 사용법'}
+
+[실패] 014.wav
+인식: 내일 서울 날씨 알아봐줘
+입력: 내일 서울 날씨 알아봐줘
+정답: {'filename': '014.wav', 'type': 'web_search', 'target': '', 'query': '내일 서울 날씨', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '내일 서울 날씨 줘'}
+
+[실패] 023.wav
+인식: 계산기, 켜지마
+입력: 계산기, 켜지마
+정답: {'filename': '023.wav', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'open_app', 'target': 'calculator'}
+
+[실패] 026.wav
+인식: 다운로드, 다운로드, 문서, 실행, 검색
+입력: 다운로드 다운로드 문서, 실행, 검색
+정답: {'filename': '026.wav', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '다운로드 다운로드 문서, 실행,'}
+
+[실패] 028.wav
+인식: 열어줘
+입력: 열어줘
+정답: {'filename': '028.wav', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'open_file', 'name': '', 'folder': ''}
+
+[실패] 030.wav
+인식: 바탕화면에 있는 테스트 파일을 찾아서 열어줘
+입력: 바탕화면에 있는 테스트 파일을 찾아서 열어줘
+정답: {'filename': '030.wav', 'type': 'open_file', 'target': '', 'query': '', 'name': '테스트', 'folder': 'desktop'}
+결과: {'type': 'open_file', 'name': '테스트 파일을 찾아서', 'folder': 'desktop'}
+
+==================================================
+small V2 none
+==================================================
+
+[실패] 011.wav
+인식: 인공지는 뉴스 검색해줘
+입력: 인공지는 뉴스 검색해줘
+정답: {'filename': '011.wav', 'type': 'web_search', 'target': '', 'query': '인공지능 뉴스', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '인공지는 뉴스'}
+
+[실패] 013.wav
+인식: 파이선 사용법 찾아줘
+입력: 파이선 사용법 찾아줘
+정답: {'filename': '013.wav', 'type': 'web_search', 'target': '', 'query': '파이썬 사용법', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '파이선 사용법'}
+
+[실패] 026.wav
+인식: 다운로드, 다운로드, 문서, 실행, 검색
+입력: 다운로드, 다운로드, 문서, 실행, 검색
+정답: {'filename': '026.wav', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '다운로드, 다운로드, 문서, 실행,'}
+
+==================================================
+small V2 jamo_0.9
+==================================================
+
+[실패] 013.wav
+인식: 파이선 사용법 찾아줘
+입력: 파이선 사용법 찾아줘
+정답: {'filename': '013.wav', 'type': 'web_search', 'target': '', 'query': '파이썬 사용법', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '파이선 사용법'}
+
+[실패] 026.wav
+인식: 다운로드, 다운로드, 문서, 실행, 검색
+입력: 다운로드 다운로드 문서, 실행, 검색
+정답: {'filename': '026.wav', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '다운로드 다운로드 문서, 실행,'}
+
+=== 전체 실험 결과 ===
+
+base  | V1 | none     | 유형:  80.00% | 전체:  63.33% | 잘못된 실행 판단: 2/8
+base  | V1 | jamo_0.9 | 유형:  80.00% | 전체:  66.67% | 잘못된 실행 판단: 2/8
+base  | V2 | none     | 유형:  93.33% | 전체:  83.33% | 잘못된 실행 판단: 0/8
+base  | V2 | jamo_0.9 | 유형:  93.33% | 전체:  86.67% | 잘못된 실행 판단: 0/8
+small | V1 | none     | 유형:  83.33% | 전체:  70.00% | 잘못된 실행 판단: 3/8
+small | V1 | jamo_0.9 | 유형:  83.33% | 전체:  73.33% | 잘못된 실행 판단: 3/8
+small | V2 | none     | 유형:  96.67% | 전체:  90.00% | 잘못된 실행 판단: 1/8
+small | V2 | jamo_0.9 | 유형:  96.67% | 전체:  93.33% | 잘못된 실행 판단: 1/8
+
+저장 완료: results/parser_experiment.csv

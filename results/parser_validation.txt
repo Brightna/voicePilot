@@ -1,0 +1,107 @@
+
+=== V1 검증 결과 ===
+
+[실패] 003
+입력: 저 메모장 사용하고 싶어요
+정답: {'id': '003', 'text': '저 메모장 사용하고 싶어요', 'type': 'open_app', 'target': 'notepad', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'unknown', 'raw_text': '저 메모장 사용하고 싶어요'}
+
+[실패] 008
+입력: 계산기 좀 쓰고 싶어
+정답: {'id': '008', 'text': '계산기 좀 쓰고 싶어', 'type': 'open_app', 'target': 'calculator', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'unknown', 'raw_text': '계산기 좀 쓰고 싶어'}
+
+[실패] 014
+입력: 내일 기차 시간 좀 알아봐 줘
+정답: {'id': '014', 'text': '내일 기차 시간 좀 알아봐 줘', 'type': 'web_search', 'target': '', 'query': '내일 기차 시간', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '내일 기차 시간  줘'}
+
+[실패] 016
+입력: 파일 열기 오류 해결 방법 검색해 줘
+정답: {'id': '016', 'text': '파일 열기 오류 해결 방법 검색해 줘', 'type': 'web_search', 'target': '', 'query': '파일 열기 오류 해결 방법', 'name': '', 'folder': ''}
+결과: {'type': 'open_file', 'name': '열기 오류 해결 방법 검색해 줘', 'folder': ''}
+
+[실패] 018
+입력: 검색 알고리즘 종류 검색해 주세요
+정답: {'id': '018', 'text': '검색 알고리즘 종류 검색해 주세요', 'type': 'web_search', 'target': '', 'query': '검색 알고리즘 종류', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '알고리즘 종류'}
+
+[실패] 020
+입력: 인공지능의 장단점에 대해 검색해 줄래
+정답: {'id': '020', 'text': '인공지능의 장단점에 대해 검색해 줄래', 'type': 'web_search', 'target': '', 'query': '인공지능의 장단점에 대해', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '인공지능의 장단점에 대해  줄래'}
+
+[실패] 024
+입력: 성적표.xlsx 열어 줄래
+정답: {'id': '024', 'text': '성적표.xlsx 열어 줄래', 'type': 'open_file', 'target': '', 'query': '', 'name': '성적표.xlsx', 'folder': ''}
+결과: {'type': 'unknown', 'raw_text': '성적표.xlsx 열어 줄래'}
+
+[실패] 027
+입력: 다운로드 폴더에 있는 신청서를 열어줘
+정답: {'id': '027', 'text': '다운로드 폴더에 있는 신청서를 열어줘', 'type': 'open_file', 'target': '', 'query': '', 'name': '신청서', 'folder': 'downloads'}
+결과: {'type': 'open_file', 'name': '신청서를', 'folder': 'downloads'}
+
+[실패] 028
+입력: 파일 관리 안내서.pdf 열어줘
+정답: {'id': '028', 'text': '파일 관리 안내서.pdf 열어줘', 'type': 'open_file', 'target': '', 'query': '', 'name': '파일 관리 안내서.pdf', 'folder': ''}
+결과: {'type': 'open_file', 'name': '관리 안내서.pdf', 'folder': ''}
+
+[실패] 029
+입력: 바탕화면에 있는 강의자료 파일을 찾아서 열어줘
+정답: {'id': '029', 'text': '바탕화면에 있는 강의자료 파일을 찾아서 열어줘', 'type': 'open_file', 'target': '', 'query': '', 'name': '강의자료', 'folder': 'desktop'}
+결과: {'type': 'open_file', 'name': '강의자료 파일을 찾아서', 'folder': 'desktop'}
+
+[실패] 032
+입력: 크롬 실행하지 말아 줘
+정답: {'id': '032', 'text': '크롬 실행하지 말아 줘', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'open_app', 'target': 'chrome'}
+
+[실패] 034
+입력: 보고서 파일 열지 마세요
+정답: {'id': '034', 'text': '보고서 파일 열지 마세요', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'open_file', 'name': '보고서  열지 마세요', 'folder': ''}
+
+[실패] 035
+입력: 검색해 주세요
+정답: {'id': '035', 'text': '검색해 주세요', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': ''}
+
+[실패] 036
+입력: 다운로드 폴더에 있는 파일 열어줘
+정답: {'id': '036', 'text': '다운로드 폴더에 있는 파일 열어줘', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'open_file', 'name': '파일', 'folder': 'downloads'}
+
+[실패] 038
+입력: 크롬을 실행하면 어떻게 돼
+정답: {'id': '038', 'text': '크롬을 실행하면 어떻게 돼', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'open_app', 'target': 'chrome'}
+
+[실패] 039
+입력: 오늘 날씨 검색하지 말아줘
+정답: {'id': '039', 'text': '오늘 날씨 검색하지 말아줘', 'type': 'unknown', 'target': '', 'query': '', 'name': '', 'folder': ''}
+결과: {'type': 'web_search', 'query': '오늘 날씨 하지 말아줘'}
+
+--- 유형별 전체 명령 일치 ---
+open_app: 8/10
+web_search: 6/10
+open_file: 6/10
+unknown: 4/10
+
+=== V2 검증 결과 ===
+
+[실패] 027
+입력: 다운로드 폴더에 있는 신청서를 열어줘
+정답: {'id': '027', 'text': '다운로드 폴더에 있는 신청서를 열어줘', 'type': 'open_file', 'target': '', 'query': '', 'name': '신청서', 'folder': 'downloads'}
+결과: {'type': 'open_file', 'name': '신청서를', 'folder': 'downloads'}
+
+--- 유형별 전체 명령 일치 ---
+open_app: 10/10
+web_search: 10/10
+open_file: 9/10
+unknown: 10/10
+
+=== 전체 검증 결과 ===
+V1 | 유형: 75.00% | 전체: 60.00% | 잘못된 실행 판단: 6/10
+V2 | 유형: 100.00% | 전체: 97.50% | 잘못된 실행 판단: 0/10
+
+저장 완료: results/parser_validation.csv

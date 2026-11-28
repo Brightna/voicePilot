@@ -1,0 +1,41 @@
+id,text,type,target,query,name,folder
+001,계산기를 좀 실행해 주세요,open_app,calculator,,,
+002,크롬 한 번 띄워줘,open_app,chrome,,,
+003,저 메모장 사용하고 싶어요,open_app,notepad,,,
+004,인터넷 브라우저 열어 줄래,open_app,chrome,,,
+005,계산기 시작해 봐,open_app,calculator,,,
+006,메모장을 켜 주세요,open_app,notepad,,,
+007,크롬 실행해,open_app,chrome,,,
+008,계산기 좀 쓰고 싶어,open_app,calculator,,,
+009,메모장 좀 실행 부탁해,open_app,notepad,,,
+010,인터넷 브라우저를 시작해 줘,open_app,chrome,,,
+011,이번 주 대전 날씨 검색해 줘,web_search,,이번 주 대전 날씨,,
+012,구글에서 운영체제 공부법 찾아줘,web_search,,운영체제 공부법,,
+013,네이버에서 서울 전시회 찾아봐,web_search,,서울 전시회,,
+014,내일 기차 시간 좀 알아봐 줘,web_search,,내일 기차 시간,,
+015,메모장 설치 방법 검색해줘,web_search,,메모장 설치 방법,,
+016,파일 열기 오류 해결 방법 검색해 줘,web_search,,파일 열기 오류 해결 방법,,
+017,C++ 포인터 사용법 찾아줘,web_search,,C++ 포인터 사용법,,
+018,검색 알고리즘 종류 검색해 주세요,web_search,,검색 알고리즘 종류,,
+019,오늘 환율 좀 알아봐,web_search,,오늘 환율,,
+020,인공지능의 장단점에 대해 검색해 줄래,web_search,,인공지능의 장단점에 대해,,
+021,바탕화면의 발표자료.pdf 열어줘,open_file,,,발표자료.pdf,desktop
+022,다운로드에 있는 시간표 파일 열어주세요,open_file,,,시간표,downloads
+023,내 문서에 있는 회의록 열어줘,open_file,,,회의록,documents
+024,성적표.xlsx 열어 줄래,open_file,,,성적표.xlsx,
+025,데스크톱에 있는 프로젝트 계획서 열어줘,open_file,,,프로젝트 계획서,desktop
+026,문서 폴더의 실험 결과 파일 열어줘,open_file,,,실험 결과,documents
+027,다운로드 폴더에 있는 신청서를 열어줘,open_file,,,신청서,downloads
+028,파일 관리 안내서.pdf 열어줘,open_file,,,파일 관리 안내서.pdf,
+029,바탕화면에 있는 강의자료 파일을 찾아서 열어줘,open_file,,,강의자료,desktop
+030,내 바탕화면에 있는 사진.jpg 열어줘,open_file,,,사진.jpg,desktop
+031,오늘 수업이 너무 어려웠어,unknown,,,,
+032,크롬 실행하지 말아 줘,unknown,,,,
+033,계산기가 고장 난 것 같아,unknown,,,,
+034,보고서 파일 열지 마세요,unknown,,,,
+035,검색해 주세요,unknown,,,,
+036,다운로드 폴더에 있는 파일 열어줘,unknown,,,,
+037,메모장,unknown,,,,
+038,크롬을 실행하면 어떻게 돼,unknown,,,,
+039,오늘 날씨 검색하지 말아줘,unknown,,,,
+040,바탕화면에 있는,unknown,,,,

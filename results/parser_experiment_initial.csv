@@ -1,0 +1,9 @@
+﻿model,parser,correction,total,type_correct,type_accuracy,full_correct,full_accuracy,false_execution,unknown_count
+base,V1,none,30,24,80.0,19,63.33,2,8
+base,V1,jamo_0.9,30,24,80.0,20,66.67,2,8
+base,V2,none,30,25,83.33,22,73.33,0,8
+base,V2,jamo_0.9,30,25,83.33,23,76.67,0,8
+small,V1,none,30,25,83.33,21,70.0,3,8
+small,V1,jamo_0.9,30,25,83.33,22,73.33,3,8
+small,V2,none,30,28,93.33,26,86.67,1,8
+small,V2,jamo_0.9,30,28,93.33,27,90.0,1,8
