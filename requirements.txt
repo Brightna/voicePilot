@@ -2,4 +2,5 @@ numpy
 sounddevice
 faster-whisper
 pyautogui
-pyperclipPySide6
+pyperclip
+PySide6
